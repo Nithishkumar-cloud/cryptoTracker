@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crypto.css">
+    <!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21678276.js"></script>
+<!-- End of HubSpot Embed Code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V4YEQ6L12R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V4YEQ6L12R');
+</script>
+    <title>Crypto Tracker</title>
+</head>
+<body>
+    <h1>Crypto Tracker</h1>
+    <h4>By Nithishkumar</h4>
+    <div>
+    <form  action="" id="searchForm">
+        <label style="color:black; font-weight:bold; font-family: Bodoni MT;">Coin Type</label>
+        <select name="coinType">
+            <option value="bitcoin">Bitcoin</option>
+            <option value="dogecoin">Dogecoin</option>
+            <option value="ethereum">Ethereum</option>
+            <option value="polkadot">Polkadot</option>
+            <option value="tether">Tether</option>
+         </select>
+         <button type="submit" id="btn">Get Price</button>
+    </form>
+    </div>
+   <table id="tableResult" border="1px">
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="crypto.js"></script>
+
+</body>
+</html>
