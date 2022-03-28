@@ -21,7 +21,7 @@ h4{
     color: white;
     text-shadow: -1px -1px;
 }
-div {
+#div {
     border-radius: 5px;
     background-color: yellow;
     padding: 25px 35px 25px 35px;
@@ -85,7 +85,7 @@ select{
     height:100%;
     background-size: cover;
   }
-  div{
+  #div{
     border-radius: 5px;
     background-color: palevioletred;
     padding: 25px 35px 25px 35px;
@@ -136,7 +136,7 @@ select{
   h1,h4{
     color:aqua;
   }
-  div{
+  #div{
     border-radius: 5px;
     background-color: violet;
     padding: 25px 35px 25px 35px;
@@ -187,7 +187,7 @@ select{
   h1,h4{
     color:chartreuse;
   }
-  div{
+  #div{
     border-radius: 5px;
     background-color: fuchsia;
     padding: 25px 35px 25px 35px;
