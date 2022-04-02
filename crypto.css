@@ -137,10 +137,10 @@ select{
     color:aqua;
   }
   #div{
-    border-radius: 5px;
-    background-color: violet;
+    border-radius: 4px;
+    background-color: yellow;
     padding: 25px 35px 25px 35px;
-    width:200px;
+    width:210px;
     text-align: center;
     margin: auto;
   }
@@ -176,7 +176,7 @@ select{
   padding: 50px;
 }
 }
-@media all and (max-width:300px){
+@media all and (max-width:280px){
   body{
     background-image: url('./bitcoin.jpg');
     background-repeat:no-repeat;
