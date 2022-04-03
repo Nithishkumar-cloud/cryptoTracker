@@ -60,14 +60,14 @@ select{
        text-align: center;
        padding: 50px;
   }
-#tableResult tr:nth-child(even){background-color:lightseagreen;color:greenyellow;}
+#tableResult tr:nth-child(even){background-color:slateblue;color:greenyellow;}
 
-#tableResult tr:hover {background-color: lightgreen;}
+#tableResult tr:hover {background-color: lightsalmon;}
 #tableResult th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color: #04AA6D;
+  background-color:aqua;
   color: white;
   font-family:'Bodoni MT' ;
 }
@@ -134,7 +134,7 @@ select{
     background-size: cover;
   }
   h1,h4{
-    color:aqua;
+    color:thistle;
   }
   #div{
     border-radius: 4px;
