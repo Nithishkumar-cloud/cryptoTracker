@@ -1,6 +1,5 @@
 const form=document.querySelector('#searchForm');
 const res=document.querySelector('#tableResult');
-let timeupdate;
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     
